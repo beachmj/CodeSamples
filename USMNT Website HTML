@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./USMNT.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div>
+            <!--Team picture-->
+            <img class="teamPic" src="./USMNT/USSF_Mens23_SquadPhotos_1920x1080.jpeg"/>
+        </div>
+        <div class="grid">
+            <!--Beginning of individual players, grouped by position-->
+            <div class="position">GOALKEEPERS</div>
+            <!--Player container-->
+            <div class="player">
+                <!--Hover container-->
+                <div class="container">
+                    <!--Individual player picture-->
+                    <img class="pic" src="./USMNT/Matt Turner.jpeg"/>
+                    <!--Player stats that will appear when pointer hovers over player picture-->
+                        <div class="hidden">
+                            <div>20 Appearances</div>
+                            <div>14 Shutouts</div>
+                            <div>14 Wins</div>
+                        </div>
+                </div>
+                <!--Player name-->
+                <div class="name">Matt Turner</div>
+                <!--Player hometown-->
+                <div class="details">Park Ridge, New Jersey</div>
+                <!--Player date of birth (and age)-->
+                <div class="details">June 24, 1994 (age 28)</div>
+                <!--Player club-->
+                <div class="details">Arsenal</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Sean Johnson.jpeg"/>
+                        <div class="hidden">
+                            <div>10 Appearances</div>
+                            <div>5 Clean Sheets</div>
+                            <div>4 Wins</div>
+                        </div>
+                </div>
+                <div class="name">Sean Johnson</div>
+                <div class="details">Lilburn, Georgia</div>
+                <div class="details">May 31, 1989 (age 33)</div>
+                <div class="details">New York City FC</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Ethan Horvath.jpeg"/>
+                        <div class="hidden">
+                            <div>8 Appearances</div>
+                            <div>2 Clean Sheets</div>
+                            <div>3 Wins</div>
+                        </div>
+                </div>
+                <div class="name">Ethan Horvath</div>
+                <div class="details">Highlands Ranch, Colorado</div>
+                <div class="details">June 9, 1995 (age 27)</div>
+                <div class="details">Luton Town</div>
+            </div>
+            <div class="position">DEFENDERS</div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Cameron Carter-Vickers.png"/>
+                        <div class="hidden">
+                            <div>11 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>0 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Cameron Carter-Vickers</div>
+                <div class="details">Southend-on-Sea, England</div>
+                <div class="details">December 31, 1997 (age 24)</div>
+                <div class="details">Celtic</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Sergino Dest.jpeg"/>
+                        <div class="hidden">
+                            <div>19 Appearances</div>
+                            <div>2 Goals</div>
+                            <div>2 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Sergino Dest</div>
+                <div class="details">Almere, Netherlands</div>
+                <div class="details">November 3, 2000 (age 22)</div>
+                <div class="details">AC Milan</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Aaron Long.jpeg"/>
+                        <div class="hidden">
+                            <div>29 Appearances</div>
+                            <div>3 Goals</div>
+                            <div>2 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Aaron Long</div>
+                <div class="details">Oak Hills, California</div>
+                <div class="details">October 12, 1992 (age 30)</div>
+                <div class="details">New York Red Bulls</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Shaq Moore.png"/>
+                        <div class="hidden">
+                            <div>15 Appearances</div>
+                            <div>1 Goal</div>
+                            <div>0 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Shaq Moore</div>
+                <div class="details">Powder Springs, Georgia</div>
+                <div class="details">November 2, 1996 (age 26)</div>
+                <div class="details">Nashville SC</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Tim Ream.png"/>
+                        <div class="hidden">
+                            <div>46 Appearances</div>
+                            <div>1 Goal</div>
+                            <div>4 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Tim Ream</div>
+                <div class="details">St. Louis, Missouri</div>
+                <div class="details">October 5, 1987 (age 35)</div>
+                <div class="details">Fulham</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Antonee Robinson.png"/>
+                        <div class="hidden">
+                            <div>29 Appearances</div>
+                            <div>2 Goals</div>
+                            <div>5 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Antonee Robinson</div>
+                <div class="details">Milton Keynes, England</div>
+                <div class="details">August 8, 1997 (age 25)</div>
+                <div class="details">Fulham</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Joe Scally.jpeg"/>
+                        <div class="hidden">
+                            <div>3 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>0 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Joe Scally</div>
+                <div class="details">Lake Grove, New York</div>
+                <div class="details">December 31, 2003 (age 19)</div>
+                <div class="details">Borussia Monchengladbach</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Walker Zimmerman.jpeg"/>
+                        <div class="hidden">
+                            <div>33 Appearances</div>
+                            <div>3 Goals</div>
+                            <div>1 Assist</div>
+                        </div>
+                </div>
+                <div class="name">Walker Zimmerman</div>
+                <div class="details">Lawrenceville, Georgia</div>
+                <div class="details">May 19, 1993 (age 29)</div>
+                <div class="details">Nashville SC</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/DeAndre Yedlin.jpeg"/>
+                        <div class="hidden">
+                            <div>75 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>8 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">DeAndre Yedlin</div>
+                <div class="details">Seattle, Washington</div>
+                <div class="details">July 9, 1993 (age 29)</div>
+                <div class="details">Inter Miami CF</div>
+            </div>
+            <div class="position">MIDFIELDERS</div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Brenden Aaronson.jpeg"/>
+                        <div class="hidden">
+                            <div>24 Appearances</div>
+                            <div>6 Goals</div>
+                            <div>5 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Brenden Aaronson</div>
+                <div class="details">Medford, New Jersey</div>
+                <div class="details">October 22, 2000 (age 22)</div>
+                <div class="details">Leeds United</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Kellyn Acosta.jpeg"/>
+                        <div class="hidden">
+                            <div>53 Appearances</div>
+                            <div>2 Goals</div>
+                            <div>5 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Kellyn Acosta</div>
+                <div class="details">Plano, Texas</div>
+                <div class="details">July 24, 1995 (age 27)</div>
+                <div class="details">LAFC</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Tyler Adams.jpeg"/>
+                        <div class="hidden">
+                            <div>32 Appearances</div>
+                            <div>1 Goal</div>
+                            <div>0 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Tyler Adams</div>
+                <div class="details">Wappinger, New York</div>
+                <div class="details">February 14, 1999 (age 23)</div>
+                <div class="details">Leeds United</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Luca De La Torre.jpeg"/>
+                        <div class="hidden">
+                            <div>12 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>3 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Luca de la Torre</div>
+                <div class="details">San Diego, California</div>
+                <div class="details">May 23, 1998 (age 24)</div>
+                <div class="details">Celta</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Weston McKennie.jpeg"/>
+                        <div class="hidden">
+                            <div>37 Appearances</div>
+                            <div>9 Goals</div>
+                            <div>3 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Weston McKennie</div>
+                <div class="details">Fort Lewis, Washington</div>
+                <div class="details">August 28, 1998 (age 24)</div>
+                <div class="details">Juventus</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Yunus Musah.png"/>
+                        <div class="hidden">
+                            <div>19 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>2 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Yunus Musah</div>
+                <div class="details">New York City, New York</div>
+                <div class="details">November 29, 2002 (age 20)</div>
+                <div class="details">Valencia</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Cristian Roldan.png"/>
+                        <div class="hidden">
+                            <div>32 Appearances</div>
+                            <div>0 Goals</div>
+                            <div>2 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Cristian Roldan</div>
+                <div class="details">Artesia, California</div>
+                <div class="details">June 3, 1995 (age 27)</div>
+                <div class="details">Seattle Sounders FC</div>
+            </div>
+            <div class="position">FORWARDS</div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Christian Pulisic.jpeg"/>
+                        <div class="hidden">
+                            <div>52 Appearances</div>
+                            <div>21 Goals</div>
+                            <div>10 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Christian Pulisic</div>
+                <div class="details">Hershey, Pennsylvania</div>
+                <div class="details">September 18, 1998 (age 24)</div>
+                <div class="details">Chelsea</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Jesus Ferreira.jpeg"/>
+                        <div class="hidden">
+                            <div>15 Appearances</div>
+                            <div>7 Goals</div>
+                            <div>4 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Jesus Ferreira</div>
+                <div class="details">Santa Marta, Colombia</div>
+                <div class="details">December 24, 2000 (age 21)</div>
+                <div class="details">FC Dallas</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Jordan Morris.jpeg"/>
+                        <div class="hidden">
+                            <div>49 Appearances</div>
+                            <div>11 Goals</div>
+                            <div>8 Assists</div>
+                        </div>
+                </div>
+                <div class="name">Jordan Morris</div>
+                <div class="details">Seattle, Washington</div>
+                <div class="details">October 26, 1994 (age 28)</div>
+                <div class="details">Seattle Sounders FC</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Gio Reyna.jpeg"/>
+                        <div class="hidden">
+                            <div>14 Appearances</div>
+                            <div>4 Goals</div>
+                            <div>1 Assist</div>
+                        </div>
+                </div>
+                <div class="name">Giovanni Reyna</div>
+                <div class="details">Sunderland, England</div>
+                <div class="details">November 13, 2002 (age 19)</div>
+                <div class="details">Borussia Dortmund</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Josh Sargent.jpeg"/>
+                        <div class="hidden">
+                            <div>20 Appearances</div>
+                            <div>5 Goals</div>
+                            <div>1 Assist</div>
+                        </div>
+                </div>
+                <div class="name">Josh Sargent</div>
+                <div class="details">O'Fallon, Missouri</div>
+                <div class="details">February 20, 2000 (age 22)</div>
+                <div class="details">Norwich City</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Tim Weah.png"/>
+                        <div class="hidden">
+                            <div>25 Appearances</div>
+                            <div>3 Goals</div>
+                            <div>2 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Tim Weah</div>
+                <div class="details">Brooklyn, New York</div>
+                <div class="details">February 22, 2000 (age 22)</div>
+                <div class="details">Lille</div>
+            </div>
+            <div class="player">
+                <div class="container">
+                    <img class="pic" src="./USMNT/Haji Wright.png"/>
+                        <div class="hidden">
+                            <div>3 Appearances</div>
+                            <div>1 Goal</div>
+                            <div>0 Assists</div>
+                        </div>
+                </div> 
+                <div class="name">Haji Wright</div>
+                <div class="details">Los Angeles, California</div>
+                <div class="details">March 27, 1998 (age 24)</div>
+                <div class="details">Antalyaspor</div>
+            </div>
+            <!--End of individual players-->
+        </div>
+        <!--Footer-->
+        <div id = "footer">
+            <span>Mindy Beach</span>
+            <span>Web Project - USMNT</span>
+            <span>CISY 1023</span>
+        </div>
+    </body>
+</html>
