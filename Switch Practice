@@ -1,0 +1,60 @@
+namespace SwitchPractice;
+// Mindy Beach
+// October 11th, 2022
+// Switch Practice Program
+using System;
+using static System.Console;
+class SwitchPractice
+{ }
+
+internal class Program
+{
+    // enum
+    enum Day
+    {
+        MONDAY = 1, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
+
+    static void Main(string[] args)
+    {
+        // Variables
+        int day;
+        string message;
+
+        // Input
+        WriteLine("Please enter a day of the week as follows: 1 for Monday, 2 for Tuesday, 3 for Wednesday, 4 for Thursday, 5 for Friday, 6 for Saturday, or 7 for Sunday");
+        day = Convert.ToInt32(Console.ReadLine());
+
+        // switch
+        switch ((Day)day)
+        {
+            case Day.MONDAY:
+                message = "Monday's child is fair of face";
+                break;
+            case Day.TUESDAY:
+                message = "Tuesday's child is  full of grace";
+                break;
+            case Day.WEDNESDAY:
+                message = "Wednesday's child is full of woe";
+                break;
+            case Day.THURSDAY:
+                message = "Thursday's child has far to go";
+                break;
+            case Day.FRIDAY:
+                message = "Friday's child is loving and giving";
+                break;
+            case Day.SATURDAY:
+                message = "Saturday's child works hard for his living";
+                break;
+            case Day.SUNDAY:
+                message = "And the child that is born on the Sabbath day - Is bonny and blithe, and good and gay";
+                break;
+            default:
+                message = "Error";
+                break;
+
+        }
+        WriteLine(message);
+        
+    }
+}

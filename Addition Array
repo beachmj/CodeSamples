@@ -1,0 +1,36 @@
+using static System.Console;
+namespace AdditionArray
+    // Mindy Beach
+    // November 16, 2022
+    // User inputs 5 #s into array, display the numbers and the total
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Array and Variables
+            int[] Values = new int[5];
+            int Total = 0;
+
+            // Inputs
+            for (int x = 0; x < Values.Length; x++)
+            {
+                Write("Please input an integer to be added: ");
+                Values[x] = Convert.ToInt32(ReadLine()); 
+            }
+            // Formula
+            for (int x = 0; x < Values.Length; x++)
+            {
+                Total = Total + Values[x];
+            }
+            // Outputs
+            for (int x = 0; x < Values.Length; x++)
+            {
+                Write(Values[x]);
+                if (x < Values.Length - 1)
+                    Write(" + ");
+            }
+            Write(" = {0}", Total);
+        }
+    }
+}

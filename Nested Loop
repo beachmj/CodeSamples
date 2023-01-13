@@ -1,0 +1,25 @@
+using static System.Console;
+namespace NestedLoopExtraCredit
+    // Mindy Beach
+    // November 3rd, 2022
+    // Nested Loop Extra Credit - Multiplication Tables 1-12
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Variables
+            int Total;
+            const int END = 12;
+
+            // Nested Loop
+            for (int i = 1; i <= END; i++)
+                for (int j = 1; j <= END; j++)
+                {
+                    Total = i * j;
+                    WriteLine("{0} * {1} = {2}", i, j, Total);
+                }
+
+        }
+    }
+}

@@ -1,0 +1,24 @@
+using System.ComponentModel.DataAnnotations;
+using static System.Console;
+namespace UseTaxMethod
+    // Mindy Beach
+    // December 1, 2022
+    // Use Tax Method - Send info to a method
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double myPurchase = 12.99;
+            DisplaySalesTax(myPurchase);
+            DisplaySalesTax(35.67);
+        }
+        private static void DisplaySalesTax(double saleAmount)
+        {
+            double tax;
+            const double RATE = 0.07;
+            tax = saleAmount * RATE;
+            WriteLine("The tax on {0} is {1}", saleAmount.ToString("C"), tax.ToString("C"));
+        }
+    }
+}

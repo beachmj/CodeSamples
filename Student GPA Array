@@ -1,0 +1,44 @@
+using System;
+using static System.Console;
+namespace StudentGPAArray
+    // Mindy Beach
+    // November 17, 2022
+    // Create a program with array of student names (Anna, Bob, Cheryl, Danesh, and Elektra), prompt user to enter the 5 GPAs, output the average. EC: Display each name with it's GPA & display highest GPA with name
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Arrays
+            string[] Names = { "Anna", "Bob", "Cheryl", "Danesh", "Elektra" };
+            double[] GPA = {0.0, 0.0, 0.0, 0.0, 0.0};
+
+            // Variables
+            double Total = 0;
+            double Average = 0;
+
+            // User Input
+            for (int i = 0; i < GPA.Length; i++)
+            {
+                Write("Pleaes enter {0}'s GPA: ", Names[i]);
+                GPA[i] = Convert.ToDouble(ReadLine());
+            }
+            
+            // Formulas
+            for (int i = 0; i < GPA.Length; i++)
+            {
+                Total = Total + GPA[i];
+            }
+            Average = Total / GPA.Length;
+
+            // Output
+            for (int i = 0; i < GPA.Length; i++)
+            {
+                WriteLine("{0}'s GPA is {1}", Names[i], GPA[i]);
+            }
+            Array.Sort(GPA,Names);
+            WriteLine("The highest GPA is {0}'s with {1}", Names[4], GPA[4]);
+            WriteLine("The average of the 5 GPA's is {0}", Average);
+        }
+    }
+}

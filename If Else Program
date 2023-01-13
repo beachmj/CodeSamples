@@ -1,0 +1,35 @@
+using System;
+using static System.Console;
+
+namespace FieldTrip
+// Mindy Beach
+// October 13th, 2022
+// Field Trip Program
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Variables
+            int Slip;
+            int Age;
+            const int ADULT = 18;
+            const int UNSIGNED = 0;
+
+            // Inputs
+            Write("Please enter 1 if your permission slip is signed, 0 if it is not signed: ");
+            Slip = Convert.ToInt32(Console.ReadLine());
+            Write("Please enter your age as a whole number: ");
+            Age = Convert.ToInt32(Console.ReadLine());
+
+            // If Else Outputs
+            if (Slip > UNSIGNED || Age >= ADULT)
+                WriteLine("You may attend the school field trip.");
+            else
+                WriteLine("You may not attend the school field trip.");
+
+
+
+        }
+    }
+}

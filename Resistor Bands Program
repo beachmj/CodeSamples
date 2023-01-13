@@ -1,0 +1,70 @@
+using System;
+using static System.Console;
+namespace ResistorBands
+    // Mindy Beach
+    // October 16th, 2022
+    // Resistor Bands Program
+    
+{
+    internal class Program
+    { 
+        enum Color
+        {
+            BLACK = 1, BROWN, RED, ORANGE, YELLOW, GREEN, BLUE, VIOLET, GREY, WHITE
+        }
+        static void Main(string[] args)
+        {
+            // Variables
+            string value;
+            int color;
+
+            // Input
+            Write("What color is the resistor band? Please use 1 for black, 2 for brown, 3 for red, 4 for orange, 5 for yellow, 6 for green, 7 for blue, 8 for violet, 9 for grey, and 10 for white: ");
+            color = Convert.ToInt32(ReadLine());
+
+            // Switch
+            switch ((Color)color)
+            {
+
+                case Color.BLACK:
+                    value = "0";
+                    break;
+                case Color.BROWN:
+                    value = "1";
+                    break;
+                case Color.RED:
+                    value = "2";
+                    break;
+                case Color.ORANGE:
+                    value = "3";
+                    break;
+                case Color.YELLOW:
+                    value = "4";
+                    break;
+                case Color.GREEN:
+                    value = "5";
+                    break;
+                case Color.BLUE:
+                    value = "6";
+                    break;
+                case Color.VIOLET:
+                    value = "7";
+                    break;
+                case Color.GREY:
+                    value = "8";
+                    break;
+                case Color.WHITE:
+                    value = "9";
+                    break;
+                default:
+                    value = "There was an error, please check you entered a number between 1 and 10.";
+                    break;
+
+            
+            }
+            // Output
+
+            WriteLine("The resistor band value is {0}.", value);
+        }
+    }
+}
