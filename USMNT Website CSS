@@ -1,0 +1,170 @@
+/* Team picture styling */
+.teamPic{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Grid settings */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+/* Player position text styling */
+.position{
+    color: red;
+    font-family: fantasy;
+    grid-column: 1 / span 3;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* Player container */
+.player{
+    text-align: center;
+    padding-top: 1%;
+}
+
+/* Hover text container */
+.container{
+    position: relative;
+    text-align: center;
+}
+
+/* Player picture styling */
+.pic{
+    width: 75%;
+    border-radius: 20px;
+    padding-top: 5%;
+}
+
+/* Hover picture styling */
+.pic:hover {
+    box-shadow: 10px 10px navy;
+    opacity: 20%;
+}
+
+/* Hidden text styling */
+.hidden{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    font-family: fantasy;
+}
+
+/* Hover */
+.pic:hover + .hidden {
+    display: block;
+    color: navy;
+}
+
+/* Player name styling */
+.name{
+    color: navy;
+    font-family:fantasy;
+    text-align: center;
+    padding-top: 3%;
+}
+
+/* Player details styling */
+.details{
+    color:navy;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* Footer styling */
+#footer{
+    color: white;
+    font-family: fantasy;
+    font-size: large;
+    background-color: red;
+    padding: 1% 0 1% 0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#footer span{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* Media Queries */
+
+/* Player position text scaling */
+@media screen and (max-width: 750px){
+    .position{
+        font-size: 150%;
+    }  
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .position{
+        font-size: 215%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .position{
+        font-size: 300%;
+    }
+}
+
+/* Hidden text scaling */
+@media screen and (max-width: 750px){
+    .hidden{
+        font-size: 100%;
+    } 
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .hidden{
+        font-size: 200%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hidden{
+        font-size: 300%;
+    }
+}
+
+/* Player name scaling */
+@media screen and (max-width: 750px){
+    .name{
+        font-size: 120%;
+    } 
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .name{
+        font-size: 175%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .name{
+        font-size: 225%;
+    }
+}
+
+/* Player details scaling */
+@media screen and (max-width: 750px){
+    .details{
+        font-size: 70%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .details{
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .details{
+        font-size: 150%;
+    }
+}
